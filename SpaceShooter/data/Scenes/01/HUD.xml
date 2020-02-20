@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+	<scene>
+		<Widget id="0">
+			<ParentWidget id="-1"/>
+			<Transform>
+				<Position x="720" y="30"/>
+				<Rotation value="0.0"/>
+				<Scale x="2.5" y="2.5"/>
+			</Transform>
+		</Widget>
+		<Widget id="1">
+			<ParentWidget id="0"/>
+			<Transform>
+				<Position x="0" y="0"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Lifebar>
+				<Transform>
+					<Position x="0" y="0"/>
+					<Rotation value="0.0"/>
+					<Scale x="1.0" y="1.0"/>
+				</Transform>
+				<Size width="20" height="100"/>
+			</Lifebar>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P00_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Widget>
+		<Widget id="2">
+			<ParentWidget id="0"/>
+			<Transform>
+				<Position x="0" y="300"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Lifebar>
+				<Transform>
+					<Position x="0" y="0"/>
+					<Rotation value="0.0"/>
+					<Scale x="1.0" y="1.0"/>
+				</Transform>
+				<Size width="20" height="100"/>
+			</Lifebar>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P00_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Widget>
+		<Widget id="3">
+			<ParentWidget id="1"/>
+			<Transform>
+				<Position x="12" y="160"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P01_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P02_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P03_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P04_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P05_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP_P06_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Widget>	
+		<Widget id="4">
+			<ParentWidget id="2"/>
+			<Transform>
+				<Position x="12" y="160"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P01_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P02_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P03_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P04_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P05_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP_P06_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Widget>
+		<Widget id="5" type="PROGRESS_BAR">
+			<ParentWidget id="1"/>
+			<Transform>
+				<Position x="12" y="30"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Size width="6" height="43"/>
+			<Color red="0" green="255" blue="0" alpha="255"/>
+		</Widget>
+		<Widget id="6" type="PROGRESS_BAR">
+			<ParentWidget id="2"/>
+			<Transform>
+				<Position x="12" y="30"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Size width="6" height="43"/>
+			<Color red="0" green="255" blue="0" alpha="255"/>
+		</Widget>		
+	</scene>

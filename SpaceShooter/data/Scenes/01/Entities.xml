@@ -1,0 +1,391 @@
+<?xml version="1.0" ?>
+	<scene>
+		<Entity type="ENTITY_SHIPCONTROLLABLE">
+			<Life value="100"/>
+			<Transform>
+				<Position x="100" y="300"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Movement>
+				<MaxLinearAcceleration value="10000"/>
+				<MaxAngularAcceleration value="10000"/>
+				<LinearInertia value="0.5"/>
+				<AngularInertia value="0.5"/>
+			</Movement>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="40.0"/>
+				<Damage value="10"/>
+				<Sound path="data/Melee/BOOMPL04_WAV.wav"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc2/ChmmrAvatar/SHIP.png"/>
+				</Animation>
+			</Component>
+			<Component type="COMPONENT_WEAPON">
+				<RelativeSpawnPos x="0" y="-60"/>
+				<CooldownSecs value="0.7"/>
+				<ProjectilePrototype type="PROJECTILE_MISSILE_001"/>
+				<Sound path="data/sc1/EarthlingCruiser/WAVE_A01_WAV.wav"/>
+			</Component>
+			<Component type="COMPONENT_WEAPON">
+				<RelativeSpawnPos x="0" y="-60"/>
+				<CooldownSecs value="3.0"/>
+				<ProjectilePrototype type="PROJECTILE_MISSILE_002"/>
+				<Sound path="data/sc2/KohrAhMarauder/kohr-fired.wav"/>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_SHIP">
+			<Life value="80"/>
+			<Transform>
+				<Position x="600" y="300"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Movement>
+				<MaxLinearAcceleration value="10000"/>
+				<MaxAngularAcceleration value="10000"/>
+				<LinearInertia value="0.3"/>
+				<AngularInertia value="0.3"/>
+			</Movement>
+			<Component type="COMPONENT_BRAIN">
+				<SecondsToNewTarget value="5.0"/>
+				<RotatingReachedValue value="20.0"/>
+				<MovementReachedValue value="40.0"/>
+			</Component>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="34.0"/>
+				<Damage value="10"/>
+				<Sound path="data/Melee/BOOMPL04_WAV.wav"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHIP.png"/>
+				</Animation>
+			</Component>
+			<Component type="COMPONENT_WEAPON">
+				<RelativeSpawnPos x="0" y="-60"/>
+				<CooldownSecs value="1.0"/>
+				<ProjectilePrototype type="PROJECTILE_MISSILE_001"/>
+				<Sound path="data/sc1/EarthlingCruiser/WAVE_A01_WAV.wav"/>
+			</Component>
+			<Component type="COMPONENT_WEAPON">
+				<RelativeSpawnPos x="0" y="-60"/>
+				<CooldownSecs value="3.7"/>
+				<ProjectilePrototype type="PROJECTILE_MISSILE_002"/>
+				<Sound path="data/sc2/KohrAhMarauder/kohr-fired.wav"/>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_ASTEROID">
+			<Transform>
+				<Position x="600" y="100"/>
+				<Rotation value="240.0"/>
+				<Scale x="1.8" y="1.8"/>
+			</Transform>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="45.0"/>
+				<Damage value="25"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTERO01_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO02_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO03_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO04_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO05_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO06_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO07_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO08_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO09_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO10_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO11_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO12_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO13_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO14_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO15_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO16_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO17_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO18_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO19_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO20_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO21_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO22_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO23_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO24_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO25_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO26_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO27_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO28_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO29_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO30_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO31_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO32_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO33_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO34_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO35_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO36_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO37_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO38_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO39_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO40_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO41_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO42_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO43_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO44_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO45_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO46_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO47_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO48_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO49_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO50_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO51_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO52_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO53_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO54_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO55_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO56_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO57_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO58_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO59_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO60_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO61_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO62_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO63_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO64_PCX.bmp"/>
+				</Animation>
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTEXP01_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP02_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP03_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP04_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP05_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP06_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP07_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP08_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP09_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP10_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP11_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP12_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP13_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP14_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP15_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP16_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP17_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP18_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP19_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP20_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_ASTEROID">
+			<Transform>
+				<Position x="450" y="500"/>
+				<Rotation value="45.0"/>
+				<Scale x="1.2" y="1.2"/>
+			</Transform>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="45.0"/>
+				<Damage value="15"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTERO01_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO02_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO03_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO04_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO05_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO06_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO07_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO08_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO09_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO10_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO11_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO12_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO13_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO14_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO15_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO16_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO17_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO18_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO19_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO20_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO21_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO22_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO23_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO24_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO25_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO26_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO27_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO28_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO29_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO30_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO31_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO32_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO33_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO34_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO35_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO36_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO37_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO38_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO39_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO40_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO41_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO42_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO43_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO44_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO45_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO46_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO47_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO48_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO49_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO50_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO51_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO52_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO53_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO54_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO55_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO56_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO57_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO58_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO59_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO60_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO61_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO62_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO63_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO64_PCX.bmp"/>
+				</Animation>
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTEXP01_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP02_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP03_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP04_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP05_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP06_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP07_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP08_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP09_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP10_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP11_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP12_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP13_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP14_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP15_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP16_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP17_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP18_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP19_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP20_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_ASTEROID">
+			<Transform>
+				<Position x="150" y="50"/>
+				<Rotation value="120.0"/>
+				<Scale x="0.7" y="0.7"/>
+			</Transform>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="45.0"/>
+				<Damage value="10"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTERO01_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO02_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO03_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO04_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO05_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO06_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO07_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO08_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO09_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO10_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO11_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO12_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO13_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO14_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO15_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO16_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO17_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO18_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO19_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO20_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO21_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO22_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO23_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO24_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO25_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO26_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO27_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO28_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO29_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO30_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO31_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO32_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO33_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO34_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO35_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO36_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO37_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO38_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO39_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO40_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO41_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO42_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO43_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO44_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO45_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO46_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO47_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO48_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO49_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO50_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO51_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO52_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO53_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO54_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO55_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO56_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO57_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO58_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO59_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO60_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO61_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO62_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO63_PCX.bmp"/>
+					<Image path="data/Melee/ASTERO64_PCX.bmp"/>
+				</Animation>
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Melee/ASTEXP01_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP02_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP03_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP04_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP05_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP06_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP07_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP08_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP09_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP10_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP11_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP12_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP13_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP14_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP15_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP16_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP17_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP18_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP19_PCX.bmp"/>
+					<Image path="data/Melee/ASTEXP20_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+	</scene>

@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+	<scene>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/big.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/cm_planet3.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/Neptune.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/rainbow_venus.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/saturn_planet.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>		
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/death_star2.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/earth_slave_new.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/mars01.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/mercury.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/venuspvo.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/triton5.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Planets/planet_new06c.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/Cyan2.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/Green.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>		
+				<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/magenta.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/magenta2.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+				<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/Orange1.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/Red2.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>	
+				<Entity type="ENTITY_BASIC">
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/Stars/Yellow2.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+	</scene>

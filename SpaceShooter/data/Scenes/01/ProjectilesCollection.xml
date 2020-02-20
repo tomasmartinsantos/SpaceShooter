@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+	<weapons>
+		<Entity type="ENTITY_PROJECTILE">
+			<ProjectileType type="PROJECTILE_MISSILE_001"/>			
+			<Transform>
+				<Position x="0" y="0"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Movement>
+				<MaxLinearAcceleration value="30000"/>
+				<MaxAngularAcceleration value="1000"/>
+				<LinearInertia value="100.0"/>
+				<AngularInertia value="100.0"/>
+			</Movement>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="10.0"/>
+				<Damage value="5"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="45"/>
+					<FixImageRotation value="180"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B01_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B02_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B03_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B04_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B05_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B06_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B07_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B08_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B09_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B10_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B11_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B12_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B13_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B14_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B15_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B16_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B17_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B18_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B19_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B20_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B21_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B22_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B23_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B24_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B25_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B26_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B27_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B28_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B29_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B30_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B31_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B32_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B33_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B34_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B35_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B36_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B37_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B38_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B39_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B40_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B41_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B42_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B43_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B44_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B45_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B46_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B47_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B48_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B49_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B50_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B51_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B52_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B53_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B54_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B55_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B56_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B57_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B58_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B59_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B60_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B61_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B62_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B63_PCX.bmp"/>
+					<Image path="data/sc2/ChmmrAvatar/SHOT_B64_PCX.bmp"/>
+				</Animation>
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B01_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B02_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B03_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B04_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B05_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B06_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B07_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B08_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B09_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B10_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B11_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B12_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B13_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B14_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B15_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B16_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B17_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B18_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B19_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B20_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>
+		<Entity type="ENTITY_PROJECTILE">
+			<ProjectileType type="PROJECTILE_MISSILE_002"/>			
+			<Transform>
+				<Position x="0" y="0"/>
+				<Rotation value="0.0"/>
+				<Scale x="1.0" y="1.0"/>
+			</Transform>
+			<Movement>
+				<MaxLinearAcceleration value="30000"/>
+				<MaxAngularAcceleration value="1000"/>
+				<LinearInertia value="100.0"/>
+				<AngularInertia value="100.0"/>
+			</Movement>
+			<Component type="COMPONENT_COLLISION">
+				<CollisionRadius value="10.0"/>
+				<Damage value="20"/>
+			</Component>
+			<Component type="COMPONENT_ANIMATION">
+				<Animation>
+					<AnimFPS value="45"/>
+					<FixImageRotation value="180"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A01_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A02_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A03_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A04_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A05_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A06_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A07_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A08_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A09_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A10_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A11_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A12_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A13_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A14_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A15_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A16_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A17_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A18_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A19_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A20_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A21_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A22_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A23_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A24_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A25_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A26_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A27_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A28_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A29_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A30_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A31_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A32_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A33_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A34_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A35_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A36_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A37_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A38_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A39_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A40_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A41_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A42_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A43_PCX.bmp"/>
+					<Image path="data/sc1/MyconPodship/SHOT_A44_PCX.bmp"/>
+				</Animation>
+				<Animation>
+					<AnimFPS value="16"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B01_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B02_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B03_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B04_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B05_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B06_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B07_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B08_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B09_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B10_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B11_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B12_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B13_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B14_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B15_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B16_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B17_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B18_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B19_PCX.bmp"/>
+					<Image path="data/sc1/KzerZaDreadnought/SHOT_B20_PCX.bmp"/>
+				</Animation>
+			</Component>
+		</Entity>		
+	</weapons>

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+	<scene>
+		<Background path="data/Scenes/01/Background.xml"/>
+		<ProjectilesCollection path="data/Scenes/01/ProjectilesCollection.xml"/>
+		<Entities path="data/Scenes/01/Entities.xml"/>
+		<HUD path="data/Scenes/01/HUD.xml"/>
+	</scene>
